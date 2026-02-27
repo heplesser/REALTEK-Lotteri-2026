@@ -99,6 +99,10 @@ def main(ticket_file):
     print()
     print("*" * 60)
     print()
+    input("Trykk ENTER for å starte trekningen!")
+    print()
+    print("*" * 60)
+    print()
     print("Trekningen pågår ", end="")
     for _ in range(7):
         print(".", end="", flush=True)
